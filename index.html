@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to-do-app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outerContainer">
+      <div>
+        <h2>To-Do APP</h2>
+      </div>
+      <div>
+        <div class="mainContainer">
+          <div class="container">
+            <!-- <h5>heading</h5> -->
+            <div class="addWork">
+              <input type="text" placeholder="Add your new todo" id="addWork" />
+              <button onclick="handleSubmit()">+</button>
+            </div>
+            <div id="recordsDisplay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

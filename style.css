@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    /* background: linear-gradient(135deg, #8052ec, #d161ff); */
+    /* rgb(128, 82, 236), rgb(255 255 255)); */
+    background: linear-gradient(358deg, rgb(70, 70, 233), rgb(48, 197, 160));
+}
+
+h2{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.mainContainer{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border: 2px solid white;
+    box-shadow: 10px 20px 37px grey;
+    border-radius: 14px;
+    padding: 30px 40px;
+    background-color: white;
+}
+
+.addWork{
+    display: flex;
+}
+.addWork input{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#recordsDisplay{
+    margin-top: 24px;
+}
+
+button{
+    background-color: blueviolet;
+    width: 49px;
+    font-size: x-large;
+    margin-left: 3px;
+}
+
+.work{
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid white;
+    display: flex;
+    width: 96%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
